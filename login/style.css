@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.login1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: #E7FF96;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%2383c8cc' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aaa89a' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%2386bcd2' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%239ea190' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%2396aecd' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%238f9b87' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23a5a0be' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%237f9581' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23ac94a9' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%236e8e7d' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa8b93' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%235b887b' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.formulario{
+    border-radius: 50px;
+    width: 370px;
+    height: 455px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+}
+
+.grupo{
+    position: absolute;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputt{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid #00E676;
+    outline: none;
+    background-color: transparent;
+}
+
+.boton1, .boton2{
+        width: 85%;
+        padding: 10px 30px;
+        margin: auto;
+        background: linear-gradient(to right, #9CCC65, #DCEDC8);
+        border: 0px;
+        outline: none;
+        border-radius: 30px;
+        text-align: center;
+}
+
+#enlace{
+    width: 100%;   
+    margin: auto;
+    background: linear-gradient(to right, #9CCC65, #DCEDC8);
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.login2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    display: none;
+    justify-content: center;
+    align-items: center ;
+    background-color: #E7FF96;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%2383c8cc' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aaa89a' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%2386bcd2' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%239ea190' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%2396aecd' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%238f9b87' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23a5a0be' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%237f9581' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23ac94a9' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%236e8e7d' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa8b93' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%235b887b' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.formulario2{
+    border-radius: 50px;
+    width: 370px;
+    height: 455px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
